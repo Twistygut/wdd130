@@ -22,15 +22,15 @@ Fonts are separated by a | */
     --secondary-color
   ); /* headlines on a colored background */
   --paragraph-color-on-white: var(
-    --primary-color
+    --secondary-color
   ); /* paragraph text on a white background */
   --paragraph-color-on-color: var(
-    --primary-color
+    --secondary-color
   ); /* paragraph text on a colored background */
-  --paragraph-background-color: var(--primary-color);
+  --paragraph-background-color: var(--secondary-color);
   --nav-link-color: var(--accent2-color);
-  --nav-background-color: var(--primary-color);
-  --nav-hover-link-color: var(--primary-color);
+  --nav-background-color: var(--secondary-color);
+  --nav-hover-link-color: var(--secondary-color);
   --nav-hover-background-color: var(--accent1-color);
 }
 
