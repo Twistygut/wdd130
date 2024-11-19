@@ -12,8 +12,20 @@ header {
   display: grid;
   grid-template-columns: 150px auto;
 }
+h1 {
+  color: #00ff00;
+  justify-self: center;
+  align-self: center;
+  font-family: Inconsolata;
+}
+p {
+  color: #00ff00;
+  font-family: Inconsolata;
+}
 h2 {
   margin: 0;
+  color: #00ff00;
+  font-family: Inconsolata;
 }
 #content {
   max-width: 1600px;
@@ -136,6 +148,10 @@ footer a:hover {
 footer .social img {
   padding-top: 15px;
 }
+#wideBoi {
+  width: 100%;
+  height: auto;
+}
 #hero {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -155,6 +171,15 @@ footer .social img {
   font-family: Inconsolata;
 }
 .button-box {
+  text-align: center;
+  font-family: Inconsolata;
+}
+.gridThing {
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 60px;
+  grid-template-rows: auto;
   text-align: center;
   font-family: Inconsolata;
 }
